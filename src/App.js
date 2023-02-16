@@ -3,7 +3,7 @@ import Main from './components/Main';
 
 //Api 
 
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=2ce36188';
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=2ce36188';
 
 const App = () => {
   const [items, setItems] = useState([]);
